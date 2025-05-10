@@ -2,7 +2,10 @@
 ## Comandos Linux 
 
 `cat`
-sudo nos otroga permisos de administrador
+nos permite visualizar el contenido de algun archivo
+
+`sudo`
+nos otorga privilegios de administrador temporalmente
 
 `sudo apt update`  
 baja las librerias de los repositorios que tiene que actualizar 
