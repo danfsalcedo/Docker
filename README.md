@@ -1,4 +1,65 @@
 # Docker
+
+`docker --version`
+sirve para visualizar la version de docker
+
+`docker ps`
+nos muestra los contenedores que estan en ejecuccion
+
+las imagenes son los sistemas operativos (ejemplo "ubuntu")
+
+app que la maquina esta corriendo
+
+`docker stop (nombre del contenedor o ID del contenedor)`
+Inicia el contenedor que se especifica con el nombre
+
+`docker start (nombre del contenedor o ID del contenedor)`
+Detiene el contenedor que se especifica con el nombre
+`docker ps -a` 
+Muestra los contenedores tanto los que estan en ejecccion como las que no
+
+
+`docker run -it ubuntu bash` para que se tenga una imagen de ejemplo de los comandos
+`docker container run` sirve para ejecutar un contenedor
+el alias de este comando es 
+`docker run` se usa mas comunmente este
+`docker compose` tambien sirve para ejecutar un contenedor pero se le pueden adicionar muchas mas configuraciones
+`docker run -t --rm -p 80:80 rancher/hello-world` 
+el primer 80 cambia el puerto para que se vea por fuera
+el segundo 80 
+
+`exit` comando para salir del contenedor
+
+`cat /etc/os-release`
+sirve para revisar si se conecto a nuestro contenedor
+
+`-t` conctarme a la terminal de ese volumen
+
+`--rm` elimina el contenedor automaticamente y elimina los volumenes que exsitan
+
+el volumen es el disco duro 
+la vm puede tener volumen
+
+`docker container -rm (numero o nombre del contenedor)` sirve para eliminar los contenedores
+el alias seria:
+`docker rm (numero o nombre del contenedor` 
+
+`docker images`
+nos muestra las imagenes que se tienen descargadas
+
+`docker rmi (numero o nombre del contenedor)`
+elimina la imagen
+
+`docker excec -it (codigo hash del contenedor) bash`
+se usa para conectarnos a una terminal de ese contenedor
+
+`--name` nombre personalizado al contenedor
+
+`-d` ejecuta el contenedor por debajo para poder seguir digitando comandos en la misma terminal que tenemos abierta(libera la terminal)
+
+
+`--name` le puedo dar un nombre personalizado a mi contenedor
+
 ## Comandos Linux 
 
 `cat`
