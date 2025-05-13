@@ -140,6 +140,12 @@ para enviar commit
 `git push`
 para hacer push
 
+`htop`
+sirve para ver los procesos de la maquina
+
+`sudo apt install htop`
+para instalar htop
+
 ## Comandos Windows
 
 `DIR`
