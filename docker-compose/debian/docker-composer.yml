@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+  debian-service:
+    image: debian:latest
+    container_name: debian-cotiner
+    tty: true
+    stdin_open: true
+    command: /bin/bash
+
+  fedora-service:
+    image: fedora:latest
+    container_name: fedora-container
+    tty: true
+    stdin_open: true
+    command: /bin/bash

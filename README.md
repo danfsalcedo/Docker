@@ -1,4 +1,5 @@
 # Docker
+<<<<<<< HEAD
 
 `docker --version`
 sirve para visualizar la version de docker
@@ -59,6 +60,21 @@ se usa para conectarnos a una terminal de ese contenedor
 
 
 `--name` le puedo dar un nombre personalizado a mi contenedor
+=======
+`docker stats` 
+
+se ve lo que esta corriendo dentro del contenedor no de la maquina host
+
+cuantos recursos gasta el proyecto mas no el 
+
+`apt intsall htop` 
+
+para instalar el comando htop
+
+docker build --pull --rm -f 'docker-compose/docker-files/ubuntu-mysql/Dockerfile' -t 'ubuntu-mysql' 'docker-compose/docker-files/ubuntu-mysql' 
+
+ docker run -d -it -p 3306:3306/tcp ubuntu-mysql:latest
+>>>>>>> 6ede3f2 (mysql docker containers created)
 
 ## Comandos Linux 
 
