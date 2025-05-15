@@ -76,7 +76,13 @@ docker build --pull --rm -f 'docker-compose/docker-files/ubuntu-mysql/Dockerfile
  docker run -d -it -p 3306:3306/tcp ubuntu-mysql:latest
 >>>>>>> 6ede3f2 (mysql docker containers created)
 
+`docker exec -it 7037bf086f7579cc00d1ea9a1b94aea4e9c9624b9812bb42b8c75df34b1288f9 bash`
+este es para ejecutar el contenedor
+
 ## Comandos Linux 
+
+`ll`
+muestra los permisos  
 
 `cat`
 nos permite visualizar el contenido de algun archivo
